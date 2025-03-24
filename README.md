@@ -24,7 +24,7 @@ Let's see!
 
 - Interesting that it automatically appends `.exe` to the build output file name.
   - Reminds of Windows OS.
-  - A bit misleading to a first-time-dart-coder.
+  - A bit misleading to a first-time-dart-coder, considering it also runs on linux.
 - Run it
 - Bam! What an amazing printline.
 
