@@ -35,3 +35,15 @@ Let's see!
   - NEvermind!
 - Move on!
 - Maybe try adding some interactivity tomorrow!
+
+## 2025-03-25T06:46:21Z - Implement a basic interactivity
+
+Huh... What kind of interactivity do I add?
+Maybe to expect an alphabet keypress and return its real position? Would make for a good warm-up.
+It's going to be difficult without an lsp on my nvim.
+
+## 2025-03-25T07:04:05Z - First impressions
+
+- Feels similar to javascript. However there is a compile step that does static analysis too.
+- No char as a type?
+  - The first thing I do with it makes me realize it is not a low-level language? Feels bad.
