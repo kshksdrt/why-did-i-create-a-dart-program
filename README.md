@@ -1,6 +1,7 @@
 # why-did-i-create-a-dart-program
 
 This is a pretty useless journal of my journey in this repo.
+Just realized after some experimentation that it would be useful when I revisit it, after few versions.
 
 ## 2025-03-24T14:07:33Z
 
@@ -47,3 +48,20 @@ It's going to be difficult without an lsp on my nvim.
 - Feels similar to javascript. However there is a compile step that does static analysis too.
 - No char as a type?
   - The first thing I do with it makes me realize it is not a low-level language? Feels bad.
+
+## 2025-03-25T07:13:30Z - Basic experimentation with type-unsafe code
+
+- Compile time checks exist.
+  - It's aware of unassigned variables.
+
+```
+~/projects/why-did-i-create-a-dart-program main*
+dart compile exe ./where-is-this-alphabet.dart
+where-is-this-alphabet.dart:17:15: Error: Method 'split' cannot be called on 'String?' because it is potentially null.
+Try calling using ?. instead.
+    userInput.split(''); // fails compilation. That's a good sign.
+              ^^^^^
+Error: AOT compilation failed
+Bad state: Generating AOT kernel dill failed!
+
+```

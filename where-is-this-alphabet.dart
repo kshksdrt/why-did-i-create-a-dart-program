@@ -14,6 +14,7 @@ void main() {
   
   while (!isValidInput) {
     stdout.write('Choose an alphabet (a-z): ');
+    // userInput.split(''); // fails compilation. That's a good sign.
     userInput = stdin.readLineSync()?.toLowerCase();
     
     if (userInput == null || userInput.isEmpty || !alphabets.contains(userInput)) {
