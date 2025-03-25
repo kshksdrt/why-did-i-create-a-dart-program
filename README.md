@@ -70,4 +70,4 @@ Bad state: Generating AOT kernel dill failed!
 
 `dart pub add http` to add the `http` package to the dependencies.
 `dart pub get` to update the dev env with all declared packages.
-Pretty usual
+Pretty usual, except for the ease of using your own dependency repository.
