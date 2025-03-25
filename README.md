@@ -65,3 +65,9 @@ Error: AOT compilation failed
 Bad state: Generating AOT kernel dill failed!
 
 ```
+
+## 2025-03-25T07:24:08Z - Dependency management
+
+`dart pub add http` to add the `http` package to the dependencies.
+`dart pub get` to update the dev env with all declared packages.
+Pretty usual
