@@ -71,3 +71,29 @@ Bad state: Generating AOT kernel dill failed!
 `dart pub add http` to add the `http` package to the dependencies.
 `dart pub get` to update the dev env with all declared packages.
 Pretty usual, except for the ease of using your own dependency repository.
+
+## 2025-03-25T07:40:31Z - Leaving dart for a while
+
+Dart does not seem to have some things that I value as someone that is currently seeking a language with low-level capabilities.
+
+- Finding dart suitable for non-intensive basic programs.
+- ### Things I liked
+  - Very familiar dependency management.
+    - The simplicty of adding your own repositories
+    - Yet not sure how auth and security can be created these private deps.
+  - Has the flutter ecosystem(which uses dart)
+  - Has a more streamlined build-system and the tech-stack.
+  - Flutter overcomes few quirks of js/ts-based cross-platform solutions.
+  - Simplicity
+- ### Things I did not like
+  - Poses as an easy to use language that feels familiar, but can fail to deliver when needs arise to optimize for performance.
+  - Lacks opportunities for performance optimization
+    - For example, at the moment I am assessing the suitability of ZeppOS for watches to extend for my use-cases.
+      - It runs on Amazfit watches which are not particularly powerful hardware.
+    - Anothe example would be to have a server to process real-time data of different sorts.
+      - Some optimization techniques may not apply to this here.
+      - Have my WIP blogpost on this topic.
+- ### Things I wish I had time to explore
+  - Compiling for different platforms
+  - Benchmarking
+  - Creating something valuable to fit into my arsenal of productivity tools, techniques and strategies.
